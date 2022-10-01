@@ -12,8 +12,6 @@ app.use(express.json());
 
 const port = process.env.PORT || 5000;
 
-
-
 const { ViewCount } = require('./Middleware/ViewCount');
 
 // app.use(ViewCount)
